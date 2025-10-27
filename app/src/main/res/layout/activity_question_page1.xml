@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SumtoHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionPage1">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="416dp"
+        android:layout_height="92dp"
+        android:background="#7FDE76"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <TextView
+        android:id="@+id/Q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="1.เป้าหมายการลงทุนของคุณคืออะไร?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    <CheckBox
+        android:id="@+id/Q1_1CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="เก็บเงินสำรองฉุกเฉิน"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q1" />
+
+    <CheckBox
+        android:id="@+id/Q1_2CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="ลงทุนเพื่อเกษียณระยะยาว"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q1_1CB" />
+
+    <CheckBox
+        android:id="@+id/Q1_3CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="สร้างความมั่งคั่งระยะยาว"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q1_2CB" />
+
+    <CheckBox
+        android:id="@+id/Q1_4CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="ต้องการผลตอบแทนสูงในระยะสั้น"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q1_3CB" />
+
+    <TextView
+        android:id="@+id/Q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="2.สถานะทางการเงินของคุณในปัจจุบันเป็นแบบใด?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q1_4CB" />
+
+    <CheckBox
+        android:id="@+id/Q2_1CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="มีทรัพย์สินมากกว่าหนี้สิน"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q2" />
+
+    <CheckBox
+        android:id="@+id/Q2_2CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="มีทรัพย์สินเท่ากับหนี้สิน"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q2_1CB" />
+
+    <CheckBox
+        android:id="@+id/Q2_3CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="มีทรัพย์สินน้อยกว่าหนี้สิน"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q2_2CB" />
+
+    <CheckBox
+        android:id="@+id/Q2_4CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="ไม่มีทรัพย์สินแต่มีหนี้สิน"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q2_3CB" />
+
+    <TextView
+        android:id="@+id/Q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="3.ระยะเวลาที่คุณวางแผนลงทุนคือเท่าไหร่?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q2_4CB" />
+
+    <CheckBox
+        android:id="@+id/Q3_1CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="น้อยกว่า 1 ปี"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q3" />
+
+    <CheckBox
+        android:id="@+id/Q3_2CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="1–3 ปี"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q3_1CB" />
+
+    <CheckBox
+        android:id="@+id/Q3_3CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="3–5 ปี"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q3_1CB" />
+
+    <CheckBox
+        android:id="@+id/Q3_4CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:text="มากกว่า 5 ปี"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q3_3CB" />
+
+    <Button
+        android:id="@+id/nextBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="#43A448"
+        android:text="ถัดไป"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q3_4CB"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

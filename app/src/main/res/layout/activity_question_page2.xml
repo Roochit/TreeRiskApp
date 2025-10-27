@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SumtoHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionPage2">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="416dp"
+        android:layout_height="92dp"
+        android:background="#7FDE76"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 2"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <TextView
+        android:id="@+id/Q4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="4.หากมูลค่าการลงทุนลดลง 20% คุณจะทำอย่างไร?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+    <CheckBox
+        android:id="@+id/Q4_1CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="ขายออกทั้งหมด"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q4" />
+
+    <CheckBox
+        android:id="@+id/Q4_2CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="ขายบางส่วนเพื่อลดความเสี่ยง"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q4_1CB" />
+
+    <CheckBox
+        android:id="@+id/Q4_3CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="ถือจำนวนเท่าเดิมต่อไป"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q4_2CB" />
+
+    <CheckBox
+        android:id="@+id/Q4_4CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="เพิ่มเงินลงทุนเพื่อลงทุนต่อ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q4_3CB" />
+
+    <TextView
+        android:id="@+id/Q5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="5.คุณมีประสบการณ์การลงทุนมากน้อยเพียงใด?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q4_4CB" />
+
+    <CheckBox
+        android:id="@+id/Q5_1CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="ไม่มีประสบการณ์ "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q5" />
+
+    <CheckBox
+        android:id="@+id/Q5_2CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="มีเล็กน้อย"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q5_1CB" />
+
+    <CheckBox
+        android:id="@+id/Q5_3CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="มีปานกลาง"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q5_2CB" />
+
+    <CheckBox
+        android:id="@+id/Q5_4CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="มีมากและเข้าใจตลาด"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q5_3CB" />
+
+    <TextView
+        android:id="@+id/Q6"
+        android:layout_width="393dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:text="6.คุณสามารถรับความเสี่ยงในการสูญเสียเงินลงทุนได้มากที่สุดเท่าไหร่?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q5_4CB" />
+
+    <CheckBox
+        android:id="@+id/Q6_1CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="น้อยกว่า 5% "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q6" />
+
+    <CheckBox
+        android:id="@+id/Q6_2CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="5–10%"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q6_1CB" />
+
+    <CheckBox
+        android:id="@+id/Q6_3CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="10–20%"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q6_2CB" />
+
+    <CheckBox
+        android:id="@+id/Q6_4CB"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:text="มากกว่า 20%"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q6_3CB" />
+
+    <Button
+        android:id="@+id/SendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#317638"
+        android:text="ส่ง"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q6_4CB"
+        app:layout_constraintVertical_bias="0.572" />
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#CC3D3D"
+        android:text="ย้อนกลับ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Q6_4CB"
+        app:layout_constraintVertical_bias="0.572" />
+</androidx.constraintlayout.widget.ConstraintLayout>
